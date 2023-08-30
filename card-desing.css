@@ -1,0 +1,71 @@
+.card {
+    border: 3px pink solid;
+    display: inline-block;
+    height: 500px;
+    width: 300px;
+    border-radius: 50px;
+    -webkit-border-radius: 50px;
+    -moz-border-radius: 50px;
+    -ms-border-radius: 50px;
+    -o-border-radius: 50px;
+    text-align: center;
+    cursor:pointer;   
+}
+
+.card:hover {
+    box-shadow: 0 0px 20px pink;
+}
+
+.bg-img {
+    border-radius: 45px 45px 0 0 !important;
+    -webkit-border-radius: 50px 50px 0 0;
+    -moz-border-radius: 50px 50px 0 0;
+    -ms-border-radius: 50px 50px 0 0;
+    -o-border-radius: 50px 50px 0 0;
+    display: block;
+    width: 300px;
+    height: 200px;
+}
+
+.profile-img {
+    border-radius: 50%;
+    -webkit-border-radius: 50%;
+    -moz-border-radius: 50%;
+    -ms-border-radius: 50%;
+    -o-border-radius: 50%;
+    margin-top: -45px;
+    width: 90px;
+    height: 90px;
+}
+
+.departmant {
+    color: rgb(124 120 120);
+    font-weight: 400;
+}
+
+.btn {
+    background-color: palevioletred;
+    padding: 10px 20px;
+    color: plum;
+    font-weight: 600;
+    font-size: larger;
+    border: none;
+    border-radius: 5px;
+    -webkit-border-radius: 5px;
+    -moz-border-radius: 5px;
+    -ms-border-radius: 5px;
+    -o-border-radius: 5px;
+    cursor: pointer;
+}
+
+.center {
+    position: absolute;
+    top: 50% !important;
+    left: 50%;
+    transform: translate(-50%,-50%);
+}
+
+.name {
+    height: 35px;
+    overflow-y: hidden;
+}
